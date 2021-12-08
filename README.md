@@ -16,3 +16,15 @@ Note that mongo command should be installed on the computer. On Linux this shoul
 
 ![Screenshot (795)](https://user-images.githubusercontent.com/64592542/145167854-8ddaaecb-2850-4ed1-899f-ec6736357a64.png)
 
+ docker commit  database_mongodb_container_1 akhil_mongodb:v1
+ docker images convert to tar file
+ docker save -o /root/akhil_mongodb.tar  akhil_mongodb
+ 
+
+ extraxt file
+ tar -xvf  akhil_mongodb.tar
+ 
+ 
+
+
+
